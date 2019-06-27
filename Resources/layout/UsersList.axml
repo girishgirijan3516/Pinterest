@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#FFFFFF"
+	android:gravity="top"	
+	android:orientation="vertical">
+	
+	<SearchView
+       android:layout_height="50dp"
+       android:layout_width="match_parent"
+       android:background="#F0F0F0"
+        android:id="@+id/searchID"  
+		android:textSize="10sp"
+    />
+	 <ListView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#F0F0F0"
+		android:layout_marginTop="5dp"
+        android:id="@+id/myListUsers"		
+     />   
+
+</LinearLayout>
